@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilas Convertidas</title>
+    <link rel="stylesheet" href="css/pilas.css">
+    <link rel="icon" href="img/sacos-de-dinheiro.ico">
+</head>
+<body>
+    
+    <main class="principal">
+        <h1>Pilas Convertidas 💲</h1>
+
+        <h2>Conversor de moedas</h2>
+
+        <label for="valor">Valor em dinheiro </label><br>
+        <input type="number" id="valor" step="0.01" placeholder="0.00">
+        
+        <div class="moedas">
+            <div class="div1">
+                <label for="m_entrada">De</label><br>
+                <select class="moedas_es" name="m_entrada" id="m_entrada">
+                    <option value="BRL">Real (BRL)</option>
+                    <option value="USD">Dólar (USD)</option>
+                    <option value="EUR">Euro (EUR)</option>
+                     <option value="AOA">Kwanza (KZ) </option>
+                    <option value="JPY">Iene (JP¥)</option>
+                    <option value="CNY">Yuan (CNY)</option>
+                    <option value="RUB">Rublo (RUB)</option>
+                    <option value="WON">Won (KRW)</option>
+                </select>
+            </div>
+
+            <div class="div2">
+                <label  for="m_saida">Para</label><br>
+                <select class="moedas_es" name="m_saida" id="m_saida">
+                    <option value="BRL">Real (BRL)</option>
+                    <option value="USD">Dólar (USD)</option>
+                    <option value="EUR">Euro (EUR)</option>
+                    <option value="AOA">Kwanza (KZ) </option>
+                    <option value="JPY">Iene (JP¥)</option>
+                    <option value="CNY">Yuan (CNY)</option>
+                    <option value="RUB">Rublo (RUB)</option>
+                    <option value="WON">Won (KRW)</option>
+                </select>
+            </div>
+        </div>
+        <button class="btn" id="btn">Converter</button>
+    </main>
+
+      <footer class="footer">
+        <ul>
+            <li><a href="https://www.linkedin.com/in/marcos-silva-670376b8/">LinkedIn</a></li>
+            <li><a href="https://github.com/Dev-Mafe">GitHub</a></li>
+            <li><a href="https://www.instagram.com/mascos.f/">Instagram</a></li>
+        </ul>
+    </footer>
+
+
+    <script src="js/pilas.js"></script>
+</body>
+</html>

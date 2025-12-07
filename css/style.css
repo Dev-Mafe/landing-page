@@ -1,0 +1,114 @@
+body {
+    background-color: #C1C9D9;
+    color: #1C1C1C;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ------ NAVBAR ------ */
+.nav {
+    background-color: #8F96A6;
+    padding: 15px 0;
+    box-shadow: 0px 3px 10px #4C5059;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    list-style: none;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: .3s ease;
+}
+
+.links a:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+/* ------ HEADER ------ */
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+img {
+    width: 220px;
+    border-radius: 50%;
+    border: 4px solid #4C5059;
+    transition: .4s ease;
+}
+
+img:hover {
+    transform: scale(1.07) rotate(2deg);
+}
+
+.titulo {
+    font-size: 38px;
+    margin-top: 10px;
+}
+
+/* ------ SEÇÕES ------ */
+main {
+    padding: 30px;
+}
+
+.card {
+    border-radius: 20px;
+    background-color: #8F96A6;
+    margin: 0 10% 50px;
+    padding: 30px;
+    box-shadow: 10px 10px 25px #4C5059;
+    transition: .4s ease;
+    animation: fade-in 1s ease forwards;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 15px 15px 30px #4C5059;
+}
+
+h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+p, li {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+.footer {
+    background-color: #8F96A6;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+}
+
+.footer a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.footer a:hover {
+    color: white;
+}

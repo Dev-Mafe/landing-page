@@ -1,0 +1,54 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #e9ad4e;
+}
+
+.principal{
+    background-color: #eccd9a;
+    margin: 5% 20%;
+    padding: 5% 15%;
+    text-align: center;
+    box-shadow: 10px 15px 20px #8b5a0d;
+    border-radius: 5%;
+}
+
+.moedas{
+    display: flex;
+    gap: 10%;
+    padding: 2% 25%;
+    padding-bottom: 5%;
+}
+
+.moedas_es:hover{
+    color:green;
+    transform: translateY(5px);
+    transition: .4s ease;
+}
+.btn{
+    color: aliceblue;
+    background-color: green;
+    border-radius: 10%;
+    padding: 3% 5%;
+}
+
+h1{
+    padding: 5% 0%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: aliceblue;
+}
+ul{
+    display:flex;
+    gap: 5%;
+    justify-content: center;
+}
+.footer{
+    background-color: #eace9a;
+    padding: 1%;
+}
